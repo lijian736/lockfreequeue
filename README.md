@@ -111,3 +111,10 @@ int main(int argc, char const *argv[])
 }
 
 ```
+#### 执行结果
+```
+Producer thread id:[140530954135296], IO:[5.79741 MB/s], messages:[759878 /s], elapsed:[1.316s], item count:[1000000]
+Producer thread id:[140530962528000], IO:[4.97353 MB/s], messages:[651890 /s], elapsed:[1.534s], item count:[1000000]
+Consumer thread id:[140530937349888], IO:[4.74014 MB/s], messages:[621300 /s], elapsed:[1.502s], item count:[933192]
+Consumer thread id:[140530945742592], IO:[5.2817 MB/s], messages:[692283 /s], elapsed:[1.541s], item count:[1066808]
+```
